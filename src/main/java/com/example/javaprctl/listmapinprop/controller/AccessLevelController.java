@@ -23,9 +23,9 @@ public class AccessLevelController {
 	}
 	
 	@GetMapping("/department")
-	public List<String> getDepartmentList(@RequestParam("deptype") String deptype) {
+	public List<String> getDepartmentList() {
 		
-		return accessLevelService.getDepartmentList(deptype);
+		return accessLevelService.getDepartmentList();
 		
 	}
 

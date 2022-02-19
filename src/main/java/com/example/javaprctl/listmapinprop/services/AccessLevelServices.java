@@ -17,8 +17,8 @@ public class AccessLevelServices {
 		return accessLevelConnector.getAccessLevel(roletype);
 	}
 	
-	public List<String> getDepartmentList(String depttype) {
-		return accessLevelConnector.getDepartmentList(depttype);
+	public List<String> getDepartmentList() {
+		return accessLevelConnector.getDepartmentList();
 	}
 
 }

@@ -26,7 +26,7 @@ public class AccessLevelConnector {
 		return accessLevelConfig.getRoles().get(roletype);
 	}
 	
-    public List<String> getDepartmentList(String depttype) {
+    public List<String> getDepartmentList() {
 		
 		return departmentListConfig.getComputer();
 	}
