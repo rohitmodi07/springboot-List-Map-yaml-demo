@@ -1,0 +1,17 @@
+#following is an example of map
+roletype:
+  roles:
+       admin: Edit level - full access of employee details
+       employee: View level - can view the details but can edit few details
+       hr: Read level - can view the details but can not edit
+       security: Read Write level - can view the details and provide security
+
+#following is an example of List
+
+department:
+    computer:
+      - programming_lab
+      - class
+      - head_office
+      - security_lab
+             
